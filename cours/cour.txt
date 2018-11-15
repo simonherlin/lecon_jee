@@ -117,3 +117,24 @@ Interret factory :
 
 
 
+Revision pour le partiel
+
+Savoir faire ue architecture à partir d'un model
+-> On commence par les DO
+-> Puis les DTO (représente la vue)
+-> Après on s'attaque au repository très souvent ils seront vide 
+	car il hérite de toutes les méthode permettant d'appeller en BDD
+	Hormis les spécifique
+-> Après on peut faire le controller
+-> Puis en dernier le service
+
+Bien revoir les différents exemple que l'on a fait
+
+Architecture n tiers
+3 couche le plus souvent 
+La partie présentation
+Partie métier
+La partie persistance
+
+MVC est un design pattern qui est utiliser dans la partie présentation d'un application web
+
