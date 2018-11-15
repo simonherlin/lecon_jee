@@ -1,0 +1,119 @@
+cour JEE 
+
+architecture n tiers, MVC
+
+MVC design paterne (consvention de codage)
+permet de compléter la partie présentaiton de l'architecture n tier
+
+techonologie utiliser
+java JEE
+framework
+Hibernate
+Spring
+
+DAO gérer accès au données
+DO représentaiton des objet de la bases les BIN
+DTO représetnation en objet
+
+en premier toujours DO
+apres DTO
+
+après de droite à gauche
+
+=> project iphone_price
+
+Base de données
+
+TBL_PHONE
+	ID
+	MODELE
+	PICT_URL
+
+TBL_PRICE
+	ID
+	PHONE_ID
+	STOCKAGE
+	PRICE
+
+
+Classe
+
+PhoneDO // Price DO
+
+
+PhoneDAO
+	findAll
+
+PriceDAO
+	findAll
+	findByPhone
+	findLowestPriceByPhone
+
+PhoneBO
+	List<PhoneDTO> findAll {
+			
+
+
+Keynote2018DTO
+	-> List<PhoneDTO>
+PhoneDTO
+	-> name
+	-> picture
+	-> price
+
+Keynotecontroller
+	DoGet()
+		new Keynote2018DTO
+		Bo.findAll
+		SetList
+	
+
+MVC
+
+	css
+	html
+	js
+	
+
+Vue interraction avec l'utilisateur (html et css)
+Controller (js qui fait le lien entre la vue html et le model) associe el bon html au bon model de traitmeent
+Modele modele de traitement (KeynoteController)
+
+
+Hibernate
+
+Framework
+ORM s'occupe que de la partie persistance
+	
+DAO interrrafie avec la base de données
+
+
+
+
+Toutes méthode public doit être documenté
+Sonarcube
+
+final
+Ne pas pouvoir réinstancié la variable
+Sert à traviller dans un context multidev
+Assure une protection du code
+
+
+SPRING
+Spring core implemente design pattern
+
+Singleton: 
+Avoir une instance d'une classe dans tout le code
+Exemple service et controller DAO en singleton
+	Constructeur private
+	Une instance private statique
+	Une methode publique
+
+Interret factory :
+	Offrir de l'instancation d'objet
+	Centralise l'instanciation d'objet
+	On garde la main sur l'instanciaton d'un objet (evite le snew partout)
+	Souplesse (on peut changer de SGBD facilement)
+
+
+
