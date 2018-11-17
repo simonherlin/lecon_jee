@@ -100,7 +100,26 @@ Assure une protection du code
 
 
 SPRING
-Spring core implemente design pattern
+Framework de développement basé sur la notion de « conteneur léger »
+Projet Open Source, support & évolution par la société SpringSource
+Spring est composé de briques, isolées & utilisables à souhait
+Spring Core : Implémente notamment le concept d’inversion de contrôle (injection de dépendance).
+	Il est également responsable de la gestion et de la configuration du conteneur .
+Spring Context : Ce module étend Spring Core. Il fournit une sorte de base de données d’objets,
+	permet de charger des ressources (telles que des fichiers de configuration) ou encore la propagation
+	d’évènements et la création de contexte comme par exemple le support de Spring dans un conteneur
+	de Servlet.
+Spring AOP : Permet d’intégrer de la programmation orientée aspect .
+Spring DAO : Ce module permet d’abstraire les accès à la base de données, d’éliminer le code
+redondant. Il fournit en outre une gestion des transactions.
+Spring MVC : Equivalent de Struts.
+
+Spring IOC :
+IOC « Inversion Of Control » : Facilite l’intégration des composant entre eux.
+Délégation des dépendances entre objets dans via fichier xml :applicationContext.xml
+(Rappel :Conteneur léger = non intrusif)
+
+
 
 Singleton: 
 Avoir une instance d'une classe dans tout le code
