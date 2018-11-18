@@ -157,3 +157,68 @@ La partie persistance
 
 MVC est un design pattern qui est utiliser dans la partie présentation d'un application web
 
+
+Le Protocole HTTP :
+	HyperText Transfer Protocol 
+	Protocole d’échanges d’information sur le web  
+	Basé sur TCP/IP 
+
+
+Requêtes HTTP :
+	Permet à un client d’envoyer des messages à un  serveur  
+
+Méthodes HTTP :
+	HTTP définit un ensemble de méthode permet de caractériser les requêtes  
+	GET : Récupérer des ressources à un serveur  
+	POST : Envoyer des données à un serveur 
+	PUT : Modifier des données  
+	DELETE : Suppression de données  
+	OPTIONS : Demander la liste des méthodes supportées par un serveur 
+	Autres : HEAD, TRACE, CONNECT  
+
+
+Web Services (Définition) 
+	Services informatiques de la famille des technologies 
+	web permettant la communication entre des 
+	applications hétérogènes dans des environnements distribués 
+
+	Ils ont été proposé à la base comme solution 
+	d’intégrations de différents logiciels développés par 
+	des entreprises (ERP, SCM, CRM) leur permettant de 
+	communiquer entre eux
+
+	Basés sur XML (déscription et échange) et utilisant en général les protocoles du web 
+	comme canal de communication;
+
+
+Web Service REST 
+Définition  
+	Acronyme de REpresentational State Transfert 
+	défini dans la thèse de Roy Fielding en 2000.  
+
+	REST n’est pas un protocole ou un format, 
+	contrairement à SOAP, HTTP ou RCP, mais un style 
+	d’architecture inspiré de l’architecture du web 
+	fortement basé sur le protocole HTTP 
+
+	Il n’est pas dépendant uniquement du web et peut 
+	utiliser d’autre protocoles que HTTP  
+
+Ce qu’il est :  
+	Un système d’architecture  
+	Une approche pour construire une application  
+Ce qu’il n’est pas  
+	Un protocole  
+	Un format  
+	Un standard  
+
+
+Les services REST sont sans états (Stateless) 
+	Chaque requête envoyée au serveur doit contenir 
+		toutes les informations relatives à son état et est traitée 
+		indépendamment de toutes autres requêtes  
+		Minimisation des ressources systèmes (pas de gestion de session, ni d’état)  
+	Interface uniforme basée sur les méthodes HTTP (GET, POST, PUT, DELETE)  
+	Les architectures RESTful sont construites à partir de 
+	ressources uniquement identifiées par des URI(s) 
+
