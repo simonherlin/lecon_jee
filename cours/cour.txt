@@ -12,7 +12,7 @@ Hibernate
 Spring
 
 DAO gérer accès au données
-DO représentaiton des objet de la bases les BIN
+DO représentaiton des objet de la bases les beans
 DTO représetnation en objet
 
 en premier toujours DO
@@ -221,4 +221,12 @@ Les services REST sont sans états (Stateless)
 	Interface uniforme basée sur les méthodes HTTP (GET, POST, PUT, DELETE)  
 	Les architectures RESTful sont construites à partir de 
 	ressources uniquement identifiées par des URI(s) 
+
+
+JDBC (Java DataBase Connectivity) est une API d'accès  aux base de données relationnel.
+
+JNDI (Java Naming and Directory Interface) est une API d'accès au service de nommage 
+	et aux annuaires d'entreprise tel que DNS, NIS, LDAP
+
+JMS (JAVA Message Service) fournit  des fonctionnalités  de communication asynchrone entre application
 
